@@ -15,5 +15,5 @@ function toCode(arg)
 
 function compare(s1, s2)
 {
-	return toCode(s1) === toCode(s2) );
+	return toCode(s1) === toCode(s2);
 }
