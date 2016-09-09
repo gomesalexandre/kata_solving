@@ -23,4 +23,4 @@ function countPositivesSumNegatives($input) {
 
     return[$positives, $negatives];
 }
->
+?>
