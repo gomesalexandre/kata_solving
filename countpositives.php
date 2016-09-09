@@ -3,7 +3,7 @@ function countPositivesSumNegatives($input) {
     $positives = 0;
     $negatives = 0;
 
-	if empty($input)
+	if ($input == NULL)
 	{
 		return([]);
 	}
