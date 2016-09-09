@@ -3,7 +3,12 @@ function countPositivesSumNegatives($input) {
     $positives = 0;
     $negatives = 0;
 
-    for ($i = 0; $i < sizeof($input); $i++)
+	if empty($input)
+	{
+		return([]);
+	}
+
+	for ($i = 0; $i < sizeof($input); $i++)
     {
       if ($input[$i] > 0 )
       {
