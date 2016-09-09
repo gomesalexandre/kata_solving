@@ -1,4 +1,4 @@
-<?php>
+<?php
 function countPositivesSumNegatives($input) {
 
     $positives = 0;
@@ -23,4 +23,4 @@ function countPositivesSumNegatives($input) {
 
     return[$positives, $negatives];
 }
-<php>
+>
